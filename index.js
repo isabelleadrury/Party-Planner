@@ -66,7 +66,7 @@ function PartyDetails() {
   const $upcomings = document.createElement("section");
   $upcomings.classList.add("upcomings");
   $upcomings.innerHTML = `
-	<h3>${selectedUpcoming.name} #${selectedParty.id}</h3>
+	<h3>${selectedUpcoming.name} #${selectedUpcoming.id}</h3>
 <p>${selectedUpcoming.description}  </p>
 	`;
   return $upcomings;
